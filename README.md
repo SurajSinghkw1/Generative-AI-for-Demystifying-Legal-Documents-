@@ -42,36 +42,36 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 -----------------------------------------------------------------------------------------------------------------------------
 
 ## Legal-Lawyer-AI/
-## ├── public/                # Static assets (favicon.jpg, images, fonts)
-## ├── src/
-## │   ├── app/               # Entry point, routing, layouts
-## │   │   ├── layout.tsx
-## │   │   ├── page.tsx
-## │   │   └── ...
-## │   ├── components/        # Reusable UI (toasts, modals, forms)
-## │   │   ├── Toast.tsx
-## │   │   └── ...
-## │   ├── pages/             # API routes, custom pages (if not using /app)
-## │   │   └── api/           # Server API route handlers for AI calls
-## │   ├── features/          # Domain logic (Legal document generators, clause parsing, etc.)
-## │   │   ├── DocumentGenerator/
-## │   │   └── ClauseParser/
-## │   ├── hooks/             # Custom React hooks (useToast.tsx, etc.)
-## │   ├── utils/             # Utility functions (formatting, parsing)
-## │   │   ├── utils.tsx
-## │   │   └── supaBaseClient.ts
-## │   ├── services/          # API clients, Google Cloud, Vertex AI connectors
-## │   ├── context/           # React Context providers (global state)
-## │   ├── store/             # State management (Redux, Zustand if used)
-## │   ├── styles/            # Global and component styles (globals.css)
-## │   ├── config/            # Configuration (API keys, endpoints)
-## │   ├── constants/         # Static values, roles, message strings
-## │   └── types/             # TypeScript interfaces and types
-## ├── .env.local             # Environment variables
-## ├── next.config.js         # Next.js configuration
-## ├── package.json           # Project metadata
-## ├── tsconfig.json          # TypeScript configuration
-## └── README.md              # Project documentation
+ ├── public/                # Static assets (favicon.jpg, images, fonts)
+ ├── src/
+ │   ├── app/               # Entry point, routing, layouts
+ │   │   ├── layout.tsx
+ │   │   ├── page.tsx
+ │   │   └── ...
+ │   ├── components/        # Reusable UI (toasts, modals, forms)
+ │   │   ├── Toast.tsx
+ │   │   └── ...
+ │   ├── pages/             # API routes, custom pages (if not using /app)
+ │   │   └── api/           # Server API route handlers for AI calls
+ │   ├── features/          # Domain logic (Legal document generators, clause parsing, etc.)
+ │   │   ├── DocumentGenerator/
+ │   │   └── ClauseParser/
+ │   ├── hooks/             # Custom React hooks (useToast.tsx, etc.)
+ │   ├── utils/             # Utility functions (formatting, parsing)
+ │   │   ├── utils.tsx
+ │   │   └── supaBaseClient.ts
+ │   ├── services/          # API clients, Google Cloud, Vertex AI connectors
+ │   ├── context/           # React Context providers (global state)
+ │   ├── store/             # State management (Redux, Zustand if used)
+ │   ├── styles/            # Global and component styles (globals.css)
+ │   ├── config/            # Configuration (API keys, endpoints)
+ │   ├── constants/         # Static values, roles, message strings
+ │   └── types/             # TypeScript interfaces and types
+ ├── .env.local             # Environment variables
+ ├── next.config.js         # Next.js configuration
+ ├── package.json           # Project metadata
+ ├── tsconfig.json          # TypeScript configuration
+ └── README.md              # Project documentation
 
 -----------------------------------------------------------------------------------------------------------------------------
 
