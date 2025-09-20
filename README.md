@@ -79,124 +79,123 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 ### npx create-next-app Legal-Lawyer-AI --typescript
 
 ## Which linter would you like to use? › - Use arrow-keys. Return to submit.
-### ❯   ESLint - More comprehensive lint rules
-   ### Biome
-   ### None        what should u choose
+ ❯   ESLint - More comprehensive lint rules
+ Biome
+ None        what should u choose
 
-### For most professional AI, TypeScript, and Next.js projects, ESLint is recommended because it offers comprehensive linting, plugin support, strong TypeScript integration, and is widely used in industry. Biome is modern, super fast, and combines linting and formatting in one, but its extensibility and plugin ecosystem are not as mature, and some formatting/linting features or integrations may be limited for large scale or legacy projects.
+ For most professional AI, TypeScript, and Next.js projects, ESLint is recommended because it offers comprehensive linting, plugin support, strong TypeScript integration, and is widely used in industry. Biome is modern, super fast, and combines linting and formatting in one, but its extensibility and plugin ecosystem are not as mature, and some formatting/linting features or integrations may be limited for large scale or legacy projects.
 
-### What to choose?
-### For maximum compatibility, configurability, and reliability—ESLint.
-### For a simple, fast, all-in-one tool and if you want the latest technology—Biome.
-### For most use cases, select ESLint unless project requirements or your team specifically prefer Biome.
+ What to choose?
+ For maximum compatibility, configurability, and reliability—ESLint.
+ For a simple, fast, all-in-one tool and if you want the latest technology—Biome.
+ For most use cases, select ESLint unless project requirements or your team specifically prefer Biome.
 
-## Would you like to use Tailwind CSS? › No / Yes ( a choice to make )
-### Tailwind CSS is already used in your project, as indicated by the "globals.css" file importing Tailwind and various className usages that match Tailwind's utility classes in your React components.
+ Would you like to use Tailwind CSS? › No / Yes ( a choice to make )
+ Tailwind CSS is already used in your project, as indicated by the "globals.css" file importing Tailwind and various className usages that match Tailwind's utility classes in your React components.
 
-### What should you choose?
-### For the question Would you like to use Tailwind CSS?
-### Choose: Yes
+ What should you choose?
+ For the question Would you like to use Tailwind CSS?
+ Choose: Yes
 
-## Would you like to use App Router? (recommended) › No / Yes
+ Would you like to use App Router? (recommended) › No / Yes
 
-### You should choose: Yes for using the App Router.
-### Your project already includes files like src/app/layout.tsx and src/app/page.tsx, which are part of Next.js's App Router structure. The App Router is the modern, recommended routing and layout system for all new Next.js projects, enabling advanced features, better flexibility, and improved scalability for apps like Legal-Lawyer-AI. 
+ You should choose: Yes for using the App Router.
+ Your project already includes files like src/app/layout.tsx and src/app/page.tsx, which are part of Next.js's App Router structure. The App Router is the modern, recommended routing and layout system for all new Next.js projects, enabling advanced features, better flexibility, and improved scalability for apps like Legal-Lawyer-AI. 
 -----------------------------------------------------------------------------------------------------------------------------
 
-### cd Legal-Lawyer-AI
-### npm install
+ cd Legal-Lawyer-AI
+ npm install
 
 ### to run the local project:
+ bash
+ npm install
+ npm run dev
 
-### bash
-### npm install
-### npm run dev
-
-### npx create-next-app Legal-Lawyer-AI --typescript
-### cd Legal-Lawyer-AI
+ npx create-next-app Legal-Lawyer-AI --typescript
+ cd Legal-Lawyer-AI
 
 ## Create core folders following modern scalable structure
-### mkdir -p public src/app src/components src/pages/api src/features/DocumentGenerator \
-### src/features/ClauseParser src/hooks src/utils src/services src/context src/store \
-### src/styles src/config src/constants src/types
+ mkdir -p public src/app src/components src/pages/api src/features/DocumentGenerator \
+ src/features/ClauseParser src/hooks src/utils src/services src/context src/store \
+ src/styles src/config src/constants src/types
 
-## App and routing
-### touch src/app/layout.tsx src/app/page.tsx
+### App and routing
+ touch src/app/layout.tsx src/app/page.tsx
 
-## Components (UI)
-### touch src/components/Toast.tsx
+### Components (UI)
+ touch src/components/Toast.tsx
 
-## API routes
-### touch src/pages/api/ai.ts
+### API routes
+ touch src/pages/api/ai.ts
 
-## Features - legal document and clause parsing modules
-### touch src/features/DocumentGenerator/index.ts
-## touch src/features/ClauseParser/index.ts
+### Features - legal document and clause parsing modules
+ touch src/features/DocumentGenerator/index.ts
+ touch src/features/ClauseParser/index.ts
 
-## Custom React hooks
-### touch src/hooks/useToast.tsx
+### Custom React hooks
+ touch src/hooks/useToast.tsx
 
-## Utilities
-### touch src/utils/utils.tsx src/utils/supaBaseClient.ts
+### Utilities
+ touch src/utils/utils.tsx src/utils/supaBaseClient.ts
 
-## Services (API, Google Cloud, Vertex AI connectors)
-### touch src/services/vertexAI.ts
+### Services (API, Google Cloud, Vertex AI connectors)
+ touch src/services/vertexAI.ts
 
-## Context (React providers)
-### touch src/context/AppContext.tsx
+### Context (React providers)
+ touch src/context/AppContext.tsx
 
-## Store (global state files, e.g. if using Zustand/Redux)
-### touch src/store/index.ts
+### Store (global state files, e.g. if using Zustand/Redux)
+ touch src/store/index.ts
 
-## Style files
-### touch src/styles/globals.css
+### Style files
+ touch src/styles/globals.css
 
-## Config and constants
-### touch src/config/index.ts src/constants/index.ts
+### Config and constants
+ touch src/config/index.ts src/constants/index.ts
 
-## Types (TypeScript interfaces)
-### touch src/types/index.ts
+### Types (TypeScript interfaces)
+ touch src/types/index.ts
 
-## Add the default favicon and any images to public
-## (Example, if you have a file favicon.jpg)
-### mv ../favicon.jpg public/
+### Add the default favicon and any images to public
+### (Example, if you have a file favicon.jpg)
+ mv ../favicon.jpg public/
 
-## Project root files (if missing)
-### touch README.md          # Documentation
-### touch .env.local         # Local environment variables
-### touch next.config.js     # Next.js configuration
+### Project root files (if missing)
+ touch README.md          # Documentation
+ touch .env.local         # Local environment variables
+ touch next.config.js     # Next.js configuration
 
-## Ensure TypeScript config exists
-### touch tsconfig.json      # TypeScript settings (included if not present from starter)
+ ### Ensure TypeScript config exists
+ touch tsconfig.json      # TypeScript settings (included if not present from starter)
 
-## Package metadata
-### touch package.json       # If not created by npx (normally is)
+ ### Package metadata
+ touch package.json       # If not created by npx (normally is)
 
 ## Yarn/NPM lock file
-### touch yarn.lock          # If using yarn (already included if not removed)
+ touch yarn.lock          # If using yarn (already included if not removed)
 
 ## Add index files to folders for easy imports and scalability
-### touch src/components/index.ts
-### touch src/features/index.ts
-### touch src/hooks/index.ts
-### touch src/services/index.ts
-### touch src/context/index.ts
-### touch src/store/index.ts
-### touch src/styles/index.ts
-### touch src/config/index.ts
-### touch src/constants/index.ts
-### touch src/types/index.ts
+ touch src/components/index.ts
+ touch src/features/index.ts
+ touch src/hooks/index.ts
+ touch src/services/index.ts
+ touch src/context/index.ts
+ touch src/store/index.ts
+ touch src/styles/index.ts
+ touch src/config/index.ts
+ touch src/constants/index.ts
+ touch src/types/index.ts
 
-## If not created, ensure api folder for additional backend endpoints
-### mkdir -p src/pages/api
+### If not created, ensure api folder for additional backend endpoints
+ mkdir -p src/pages/api
 
-## If planning tests or storybook
-### mkdir -p src/tests src/stories
-### touch src/tests/index.test.ts
-### touch src/stories/index.stories.ts
+### If planning tests or storybook
+ mkdir -p src/tests src/stories
+ touch src/tests/index.test.ts
+ touch src/stories/index.stories.ts
 
-## Optional: For assets like fonts
-### mkdir -p public/fonts
+### Optional: For assets like fonts
+ mkdir -p public/fonts
 
 -----------------------------------------------------------------------------------------------------------------------------
 
