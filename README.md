@@ -36,14 +36,14 @@ GOOGLE_API_KEY=your_google_api_key_here
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url_here
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 
-###cd Legal-Lawyer-AI
-###npm install
+### cd Legal-Lawyer-AI
+### npm install
 
-###to run the local project:
+### to run the local project:
 
-##bash
-###npm install
-###npm run dev
+## bash
+### npm install
+### npm run dev
 
 
 Open your browser and visit `http://localhost:3000` or `http://localhost:3001` to see the app in action.
