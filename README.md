@@ -87,7 +87,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 
 ### What to choose?
 ### For maximum compatibility, configurability, and reliability—ESLint.
-###For a simple, fast, all-in-one tool and if you want the latest technology—Biome.
+### For a simple, fast, all-in-one tool and if you want the latest technology—Biome.
 ### For most use cases, select ESLint unless project requirements or your team specifically prefer Biome.
 
 ## Would you like to use Tailwind CSS? › No / Yes ( a choice to make )
