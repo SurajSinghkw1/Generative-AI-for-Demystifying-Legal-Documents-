@@ -218,7 +218,7 @@ The app can be deployed to Google Cloud Run or any preferred platform supporting
 - `public/` - Static assets and SVG icons
 
 ## TO VIEW PROJECT 
-### https://3001-cs-49aee0c1-6831-4e8c-8f3f-4dd00f96d2fd.cs-asia-southeast1-bool.cloudshell.dev/?authuser=0
+### https://console.cloud.google.com/billing/015519-495D35-F849EE/credits/all?authuser=0&cloudshell=true&project=p1h25study
 ---
 
 *Created by [SURAJ SINGH]*
