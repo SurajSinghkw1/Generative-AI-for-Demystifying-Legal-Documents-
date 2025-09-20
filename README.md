@@ -217,8 +217,6 @@ The app can be deployed to Google Cloud Run or any preferred platform supporting
 - `src/utils/` - Helper functions and utilities
 - `public/` - Static assets and SVG icons
 
-## TO VIEW PROJECT 
-### https://console.cloud.google.com/billing/015519-495D35-F849EE/credits/all?authuser=0&cloudshell=true&project=p1h25study
 ---
 
 *Created by [SURAJ SINGH]*
